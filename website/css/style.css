@@ -1,0 +1,357 @@
+
+.fix{
+position: fixed;
+padding : 0.2rem 2rem 0.1rem 0rem;
+background-color: whitesmoke;
+box-shadow: 0px 1px 10px;
+text-align: right;}
+.main-menu{
+   
+}
+.navbar-brand{
+    padding : 0 2rem 0 5rem;
+}
+.header-area .main-menu .nav-item .nav-link{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 0.5rem;
+    border-left: #26003a solid 1px;
+} 
+
+.header-area .main-menu .navbar-nav .active a{
+   background-color: linear-gradient(#B865E4,#FF5450);
+}
+.header-area .main-menu .navbar-nav a:hover {
+    background: linear-gradient(#B865E4,#FF5450);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* '''''''''''''' start banner'''''''''''''''''''''*/
+.banner-title h3{
+    font-weight: 500
+}
+.banner-title h2{
+    font-weight: 500;
+}
+.banner-title h1{
+    font-weight: 800;
+    font-size:3rem;
+    color:#26003a;
+}
+.banner-image img{
+    padding:7rem 0 0 0;
+     
+}
+.banner {
+
+    background-color: #fce5f6c4;
+}
+.banner-title button{
+    font-weight: 700;
+    background:linear-gradient(#B865E4,#FF5450) ;
+    color:whitesmoke;
+    padding:0.3rem 2rem;
+    transition: 0.3s;
+}
+.banner-title button:hover{
+    font-weight: 700;
+    background:whitesmoke;
+    color:rgb(7, 0, 0);
+    padding:0.3rem 2rem;
+   border: solid #26003a;
+   border-radius: 2px;
+   box-shadow: 0px 5px 10px;
+}
+
+
+/* '''''''''''''' end banner'''''''''''''''''''''*/
+
+/* '''''''''''''' start ABOUT US'''''''''''''''''''''*/
+.about-title h2{
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+.about-title{
+}
+.about-image{
+    
+}
+.about-title p{
+    font-size:18px;
+    font-weight:400;
+    line-height: 25px;
+}
+
+.about-title button{
+    font-weight: 700;
+    background:linear-gradient(#B865E4,#FF5450) ;
+    color:whitesmoke;
+    padding:0.3rem 2rem;
+    transition: 0.3s;
+}
+.title-but button:hover{
+    font-weight: 700;
+    background:whitesmoke;
+    color:rgb(7, 0, 0);
+    padding:0.3rem 2rem;
+   border: solid #26003a;
+   border-radius: 2px;
+   box-shadow: 0px 2px 2px;
+}
+/* '''''''''''''' END ABOUT US'''''''''''''''''''''*/
+
+
+/* ''--'''============''''start brand logos''''============'''*/
+.brand-logo{
+    justify-content:center;
+}
+.brand-logo img:hover{
+   border-radius: 2px;
+   box-shadow: 0px 5px 15px;
+   transform:scale(1.1);
+   filter:opacity(1);
+}
+.brand-logo img{
+   filter: opacity(0.6);
+    margin: 1.7rem;
+}
+/*.call-center span{
+    margin-top: 3rem;
+    font-size: large;
+    font-weight: 700;
+}
+.call-area span{
+    margin-left: 3rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+.call-center h2{
+    font-size:100px;
+    font-weight: 900;
+    color: #26003a;
+}
+
+.call-center  .call-area{
+padding: 10px 0px 10px 30px;
+background-color:#fce5f6c4;}
+
+.years-area{
+border-bottom: #26003a;
+border-style: groove;}
+.call-center{
+border-bottom: #26003a;
+border-style:dashed;}
+
+.call-center  .call-area p{
+justify-content: center;
+background-color:#fce5f6c4;}
+
+.call-center .years-area{
+padding: 20px;
+background-color:#fce5f6c4;} */
+.years{
+    margin-bottom:3rem ;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.years{
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+   
+
+.experience-area {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.call-us-now span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #472ae9;
+}
+.call-center h2{
+    font-size:100px;
+    font-weight: 900;
+    color: #26003a;
+}
+.call-center .age span{
+    font-size:50px;
+    font-weight: 400;
+    color: #26003a;
+}
+
+.call-center {
+
+background-color:#fce5f6c4;}
+
+.years-area{
+border-bottom: #26003a;
+border-style: groove;}
+.call-center{
+    margin-left: 2rem;
+border : solid #26003a;}
+
+.call-center  .call-area p{
+justify-content: center;
+background-color:#fce5f6c4;}
+
+.call-center .years-area{
+background-color:#fce5f6c4;} 
+
+
+/* ''--'''============''''end brand logos''''============'''*/
+
+/*--'''============''''start products area''''============'''--*/
+.product-heading{
+    padding-top: 5rem;
+    font-weight: bold;
+    color: #26003a;
+    font-size: 35px;
+}
+.para-products-offer{
+    padding: 0rem 1rem 0rem 1rem ;
+    font-weight:600;
+    line-height: 30px;
+}
+.product-show{
+background-color: #fcf6ff;
+padding: 2rem;
+width: 16rem;
+margin: 5px;
+border-radius: 10px;
+transition: box-shadow 0.5s ease;
+}
+.product-show:hover{
+box-shadow: 0px 7px 20px;
+}
+
+/*--'''============''''end products area''''============'''--*/
+
+/*--'''============''''start PROJECT area''''============'''--*/
+.project-title{
+    font-weight: 700;
+    padding-top: 5rem;
+}
+.button-project-area{
+    padding: 2rem 0rem ;
+}
+.button-project-area button + button{
+    padding-left: 2rem;
+}
+.button-project-area button{
+    text-transform: uppercase;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+.project-name{
+
+}
+
+.project-img:hover img{
+    filter: brightness(1.1) drop-shadow(0px 2px 20px);
+}
+
+/*--'''============''''end PROJECT area''''============'''--*/
+
+/*--'''============''''start CLIENT area''''============'''--*/
+.client{
+    box-shadow: 0px 1px 5px;
+    background-color:#f4ecf8;
+    margin: 1.5rem;
+}
+.client-text{
+    align-content: center;
+    padding: 1rem;
+    font-size: 500;
+}
+.client-img{
+    align-content: center;
+    padding: 1rem;
+    
+}
+.owl-carousel .owl-dots .owl-dot.active span{
+    background-color: #d59ff1;
+    color:#26003a;
+    width: 12px;
+}
+
+/*--'''============''''end CLIENT area''''============'''--*/
+
+/*--'''============''''START GET UPDATE area''''============'''--*/
+.get-update-area{
+    background: url(../img/getupdate\ from\ us\ img.jpg) no-repeat;
+    padding: 5rem;
+    margin: 2rem 0rem 2rem 6.5rem;
+    
+}
+.get-update-title{
+    color: aliceblue;
+    font-weight: 700;
+}
+.get-update-body{
+    color: aliceblue;
+    font-weight: 600;
+}
+.input-email input{
+    background: transparent;
+    width: 20rem;
+    border-color:whitesmoke;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+}
+.input-email input::placeholder{
+   color: whitesmoke;
+}
+.subscribe-button .btn-success{
+   background-color: whitesmoke;
+   padding: 0.5rem;
+   color: #26003a;
+   font-weight: 700;
+}
+.subscribe-button .btn-success:hover{
+   transform: scale(1.1);
+   box-shadow: 0px 2px 10px;
+}
+
+/*--'''============''''end GET UPDATE area''''============'''--*/
+
+/*--'''============''''START FOOTER area''''============'''--*/
+.footer a img{
+    margin-top: 3rem;
+}
+.footer i{
+    padding:0rem 2rem;
+    filter: opacity(0.3);
+}
+.footer i:hover{
+   transform: scale(1.1);
+    filter: opacity(1);
+}
+.footer p{
+    font-weight: 600;
+    color: #26003a;
+}
+.footer h6{
+    font-weight: 400;
+    color: #13001d;
+    margin: 2rem;
+    font-size: small;
+}
+
+/*--'''============''''END FOOTER area''''============'''--*/
